@@ -1,4 +1,4 @@
-# Anonymous Messaging Website
+# Saraha (Anonymous Messaging Website)
 
 ## Overview
 
