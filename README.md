@@ -24,8 +24,8 @@ This project is a web application inspired by the Saraha App, allowing users to 
 
 You can access the live application directly using the link below. If you'd like to explore the code or run it locally, feel free to clone the repository from GitHub.
 
-1. **Live Demo**: https://saraha-app-mvc-sable.vercel.app/(#)
-2. **Source Code**: https://github.com/Ahmed-Khalil-96/Saraha-app-MVC.git(#)
+1. **Live Demo**: https://saraha-app-mvc-sable.vercel.app/
+2. **Source Code**: https://github.com/Ahmed-Khalil-96/Saraha-app-MVC.git
 
 ## Usage
 
