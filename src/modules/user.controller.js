@@ -44,7 +44,7 @@ export const user = async(req,res,next)=>{
 
     const{id}=req.params
     const link =`${req.protocol}://${req.headers.host}/user/${id}`
-    await QRCode.toDataURL(link, function (err, url) {
+     QRCode.toDataURL(link, function (err, url) {
         qrCodeUrl=url
       })
       
@@ -67,7 +67,7 @@ export const messages = async(req,res,next)=>{
     const messages =await messageModel.find({user:req.session.userId})
     const link = `${req.protocol}://${req.headers.host}/user/${req.session.userId}`
 
-    await QRCode.toDataURL(link, function (err, url) {
+     QRCode.toDataURL(link, function (err, url) {
         qrCodeUrl=url    
       })
       

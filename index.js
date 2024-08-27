@@ -6,7 +6,7 @@ import connectMongoDBSession from 'connect-mongodb-session';
 import messageRouter from './src/modules/messages/messages.routes.js';
 import path from "path"
 import cors from "cors"
-
+import 'dotenv/config'
 const app = express()
 const port = process.env.port||3000
 const MongoDBStore = connectMongoDBSession(session);
